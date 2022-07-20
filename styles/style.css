@@ -292,11 +292,6 @@ footer a {
     .top-banner-text {
         height: 178px;
         width: 258px;
-        /* display: flex;
-        justify-content: center;
-        text-align: center;
-        flex-direction: column;
-        color: white; */
         padding: 0px;
         margin-bottom: 20px;
         margin-left: 0%;
@@ -335,4 +330,134 @@ footer a {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
+}
+
+/*---------------------
+ Tablet Responsive 
+ ----------------------*/
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+    body {
+        margin: 0%;
+        padding: 0%;
+        overflow-x: hidden;
+    }
+
+    main {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+
+    .top-banner {
+        width: 420px;
+        height: 300px;
+        margin-left: -5px;
+        margin-right: -5px;
+        border-radius: 10px;
+        margin-bottom: 50px;
+    }
+
+    .top-banner-text {
+        height: 150px;
+        width: 230px;
+        padding: 0px;
+        margin-bottom: 20px;
+        margin-left: 40px;
+        margin-top: 50px;
+
+    }
+
+    .top-banner-text h1 {
+        font-size: 1em;
+        padding-top: 150px;
+    }
+
+    .top-banner-text p {
+        width: 100%;
+        font-size: 0.6em;
+    }
+
+    .banner-photo {
+        width: 160px;
+        height: 230px;
+        margin: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 30px;
+        margin-top: 10px;
+
+    }
+
+    .link-btn {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 160px;
+        height: 40px;
+        font-size: 0.8em;
+        font-weight: 500;
+    }
+
+    .mid-section {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: row;
+        color: white;
+        border: 1px solid #E8E8E8;
+        background-color: white;
+        height: 80px;
+        width: 420px;
+    }
+
+    .menu-bar {
+        width: 120px;
+        height: 50px;
+        border-color: #E8E8E8;
+
+    }
+
+    .menu-bar a {
+        font-size: 16px;
+    }
+
+    .menu-features {
+        grid-template-columns: repeat(2, 200px);
+        column-gap: 20px;
+    }
+
+    .box-photo img {
+        width: 200px;
+    }
+
+    .see-more {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin-top: -50px;
+        width: 420px;
+    }
+
+    .see-more a {
+        text-decoration: none;
+        color: red;
+        font-size: 1.2em;
+    }
+
+
+
+
+    footer {
+        width: 440px;
+
+    }
+
+    .footer-feature {
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
 }
