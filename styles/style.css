@@ -122,15 +122,15 @@ main {
     font-size: 20px;
 }
 
-#colorful {
+.colorful {
     background-color: #DD0000;
 }
 
-#colorful a {
+.colorful a {
     color: white;
 }
 
-/*-------------------- feature-------------- */
+/*--------------------Menu feature-------------- */
 .menu-features {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -183,6 +183,19 @@ main {
     margin-left: 30px;
 }
 
+.see-more {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: -50px;
+}
+
+.see-more a {
+    text-decoration: none;
+    color: red;
+    font-size: 1.2em;
+}
+
 /*-------------------------
        Footer section 
 ----------------------------*/
@@ -229,3 +242,7 @@ footer a {
 .fa-github {
     padding-left: 20px;
 }
+
+/*------------------------------
+       Upcoming Matches  
+ ----------------------------------*/

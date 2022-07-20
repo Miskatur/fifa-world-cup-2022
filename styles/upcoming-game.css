@@ -1,0 +1,51 @@
+.game-features {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 24px;
+    row-gap: 24px;
+}
+
+.game-features a {
+    text-decoration: none;
+    color: #161616;
+}
+
+.match-features {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    width: 310px;
+    height: 240px;
+}
+
+.flag-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.german,
+.france {
+    height: 54px;
+    width: 95px;
+
+}
+
+.flag-photo span {
+    padding-left: 20px;
+}
+
+.flag-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flag-text p {
+    margin-top: -10px;
+    color: #4D4D4D;
+    font-size: 0.8em;
+}
