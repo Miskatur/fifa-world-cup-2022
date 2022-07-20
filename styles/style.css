@@ -1,0 +1,90 @@
+/*------------------
+     Common CSS 
+ ------------------*/
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+}
+
+/*------------------------
+    Top banner Section  
+--------------------------*/
+
+/* Text Part  */
+.top-banner {
+    width: 1320px;
+    display: flex;
+    background-color: #161616;
+    border-radius: 30px;
+}
+
+.top-banner-text {
+    width: 530px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    color: white;
+    padding-left: 50px;
+    margin-left: 50px;
+    text-align: left;
+}
+
+.top-banner-text h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    /* line-height: 70px; */
+}
+
+.top-banner-text p {
+    font-size: 16px;
+    margin-top: 0;
+    /* font-weight: 400; */
+}
+
+.link-btn a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.link-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    height: 50px;
+    width: 180px;
+    /* padding: 16px; */
+    background-color: #DD0000;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    border-radius: 5px;
+}
+
+.link-btn img {
+    padding-top: 6px;
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+}
+
+/* image part  */
+.banner-photo {
+    width: 500px;
+    height: 580px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+/*--------------------------------
+          Middle Section 
+---------------------------------*/
