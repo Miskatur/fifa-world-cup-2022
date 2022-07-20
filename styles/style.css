@@ -21,6 +21,7 @@ main {
     display: flex;
     background-color: #161616;
     border-radius: 30px;
+    margin-bottom: 100px;
 }
 
 .top-banner-text {
@@ -88,3 +89,96 @@ main {
 /*--------------------------------
           Middle Section 
 ---------------------------------*/
+.mid-section {
+    display: grid;
+    grid-template-columns: 310px 1fr;
+    margin-bottom: 100px;
+
+}
+
+/*---------------- Menu Section ----------------- */
+.menu {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 290px;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.menu-bar {
+    width: 250px;
+    height: 64px;
+    border-radius: 10px;
+    color: white;
+    margin: 15px;
+}
+
+.menu-bar a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+#colorful {
+    background-color: #DD0000;
+}
+
+#colorful a {
+    color: white;
+}
+
+/*-------------------- feature-------------- */
+.menu-features {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 24px;
+    row-gap: 24px;
+
+}
+
+/* .feature {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 24px;
+} */
+
+.box {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+.box-text {
+    padding-left: 20px;
+}
+
+.box-text .heading {
+    border: 1px solid #161616;
+    width: 90px;
+    height: 30px;
+    text-align: center;
+}
+
+.box-info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.box-info span {
+    margin-left: 10px;
+}
+
+.duration,
+.comment {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.chat {
+    margin-left: 30px;
+}
