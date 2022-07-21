@@ -447,9 +447,10 @@ footer a {
     .see-more {
         display: flex;
         flex-direction: row;
-        justify-content: flex-end;
+        justify-content: center;
         margin-top: -50px;
         width: 420px;
+
     }
 
     .see-more a {
