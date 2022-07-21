@@ -71,6 +71,17 @@ main {
     border-radius: 5px;
 }
 
+/* Hover effect */
+.link-btn:hover {
+    width: 220px;
+    /* height: 60px; */
+    /* transform: scale(1.2);
+    margin-left: 18px; */
+    transition: width 0.1s linear;
+    /* transition: transform 0.3s linear; */
+}
+
+
 .link-btn img {
     padding-top: 6px;
     height: 20px;
@@ -340,6 +351,7 @@ footer a {
         margin: 0%;
         padding: 0%;
         overflow-x: hidden;
+
     }
 
     main {
